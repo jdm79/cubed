@@ -3,11 +3,11 @@ var express = require('express');
 var expressLayouts = require('express-ejs-layouts');
 var bodyParser = require('body-parser');
 var app = express();
-var port = 8080;
 
 
-var port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+
+var port = process.env.PORT|| 8080
+var server_ip_address = process.env.SERVER_IP_ADDRESS || '127.0.0.1'
 
 
 // this code below has to go first, before 'var router',
