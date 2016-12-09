@@ -7,7 +7,6 @@ var app = express();
 
 
 var port = process.env.PORT|| 8080
-var server_ip_address = process.env.SERVER_IP_ADDRESS || '127.0.0.1'
 
 
 // this code below has to go first, before 'var router',
@@ -31,6 +30,6 @@ app.use('/', router);
 app.use(express.static(__dirname + '/public'));
 
 // start the server
-app.listen(port, server_ip_address, function () {
-  console.log( "Listening on " + server_ip_address + ", port " + port )
+app.listen(port, function () {
+  console.log( "Listening on port " + port, app.get('env') )
 });
