@@ -5,6 +5,11 @@ var bodyParser = require('body-parser');
 var app = express();
 var port = 8080;
 
+
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+
+
 // this code below has to go first, before 'var router',
 // otherwise it doesn't work
 
@@ -26,6 +31,6 @@ app.use('/', router);
 app.use(express.static(__dirname + '/public'));
 
 // start the server
-app.listen(port, function() {
-  console.log("App started");
+app.listen(port, server_ip_address, function () {
+  console.log( "Listening on " + server_ip_address + ", port " + port )
 });
