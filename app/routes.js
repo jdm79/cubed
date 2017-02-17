@@ -18,6 +18,13 @@ router.get('/about', function(req, res) {
     { name: 'James', email: 'james@gmail.com', avatar: 'http://placekitten.com/800/800' },
     { name: 'Jees', email: 'pop@gmail.com', avatar: 'http://placekitten.com/700/700', },
     { name: 'Kaes', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/800' },
+    { name: 'Ben', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/700' },
+    { name: 'Leon', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/800' },
+    { name: 'Cath', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/700' },
+    { name: 'Barry', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/800' },
+    { name: 'Pete', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/800' },
+
+
 
   ];
 
@@ -32,6 +39,21 @@ router.get('/news', function(req, res) {
 // Portfolio Page Route
 router.get('/portfolio', function(req, res) {
   res.render('pages/portfolio');
+});
+
+// References Page Route
+router.get('/references', function(req, res) {
+  res.render('pages/references');
+});
+
+// Services Page Route
+router.get('/services', function(req, res) {
+  res.render('pages/services');
+});
+
+// Skills Page Route
+router.get('/skills', function(req, res) {
+  res.render('pages/skills');
 });
 
 // Contact Page Route
