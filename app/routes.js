@@ -16,7 +16,6 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   var users = [
     { name: 'James', email: 'james@gmail.com', avatar: 'http://placekitten.com/800/800' },
-    { name: 'Jo', email: 'wow@gmail.com', avatar: 'http://placekitten.com/900/900', },
     { name: 'Jees', email: 'pop@gmail.com', avatar: 'http://placekitten.com/700/700', },
     { name: 'Kaes', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/800' },
 
