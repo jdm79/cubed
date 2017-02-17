@@ -29,6 +29,10 @@ header .navbar {
   overflow: hidden;
 }
 
+.centre-block {
+  margin-top: 20px;
+}
+
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
