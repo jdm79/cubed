@@ -24,6 +24,10 @@ header .navbar {
   font-size: 14px;
 }
 
+.jumbotron  .jumbo-text {
+  margin-top: 60px;
+}
+
 .jumbotron .portfolio-text {
   position: relative;
   background: url() center center;
