@@ -1,7 +1,8 @@
 body {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.5;
   background-color: black;
+  color:white;
 }
 
 header .navbar {
@@ -21,7 +22,7 @@ header .navbar {
 }
 
 .jumbotron .about p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .jumbotron  .jumbo-text {
