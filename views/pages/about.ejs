@@ -9,16 +9,23 @@
 
 <%- contentFor('body') %>
 
-<div class="jumbotron text-center">
-  <h1>The Team</h1>
+<div class="jumbotron text-left">
+  <div class="jumbo-text">
+    <div class="about">
+  <p>
 
-  <div class="row">
-    <% for (user of users) { %>
-      <div class="col-sm-3">
-        <h2><%= user.name %>
-          <img src="<%= user.avatar %>" alt="" class="img-responsive">
-          <h5><%= user.email %></h5>
-      </div>
-    <% } %>
-  </div>
+  The company was set up in November 2010 by Ben Jolly.
+  He is a firm believer that good design work can make a huge difference to everything, whether it’s getting a message across,
+  building a brand or motivating people, it’s a way of communicating and connecting with people on all levels.<br/>
+  <br/>
+
+  We have many years of combined experience and our zest for artistic creation make us the ideal partner for all of your company's marketing,
+  design and/or print needs. It is important to us to speak with our clients in detail to be able to create something truly unique for your business
+  or personal needs.<br/>
+  </br>
+
+  We encourage feedback since it is always incorporated into our work moving forward.
+  </br>
+</p>
+</div>
 </div>

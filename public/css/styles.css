@@ -20,8 +20,8 @@ header .navbar {
   overflow: hidden;
 }
 
-.jumbotron p {
-  font-size: 12px;
+.jumbotron .about p {
+  font-size: 14px;
 }
 
 .jumbotron .portfolio-text {
@@ -31,6 +31,10 @@ header .navbar {
   height: 100%;
   background-size: cover;
   overflow: hidden;
+}
+
+.about {
+margin-top: 100px;
 }
 
 .hero {
