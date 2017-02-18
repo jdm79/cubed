@@ -119,16 +119,20 @@ footer {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     /* For mobile phones: */
     .about {
     margin-top: -90px;
     }
 
+    .jumbotron .jumbo-text {
+    margin-top: -55px;
+    }
+
 
 
     .jumbotron .text-center {
-      margin-top: 20px;
+      margin-top: 110px;
       position: relative;
       background: url() center center;
       width: 100%;
