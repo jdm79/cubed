@@ -106,6 +106,10 @@ footer {
     margin-top: -90px;
     }
 
+    .hero-content .center-block .img-responsive {
+        margin:10px;
+    }
+
 
 
     .jumbotron .text-center {
@@ -126,13 +130,16 @@ footer {
     }
 
     .jumbotron .jumbo-text {
-    margin-top: -55px;
+        margin-top: -55px;
+    }
+
+    .hero-content .center-block .img-responsive {
+        margin:10px;
     }
 
 
-
     .jumbotron .text-center {
-      margin-top: 110px;
+      margin-top: 120px;
       position: relative;
       background: url() center center;
       width: 100%;
