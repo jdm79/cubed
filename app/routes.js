@@ -46,11 +46,6 @@ router.get('/references', function(req, res) {
   res.render('pages/references');
 });
 
-// Services Page Route
-router.get('/services', function(req, res) {
-  res.render('pages/services');
-});
-
 // Skills Page Route
 router.get('/skills', function(req, res) {
   res.render('pages/skills');
