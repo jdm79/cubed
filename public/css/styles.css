@@ -94,9 +94,19 @@ footer {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     /* For mobile phones: */
     .about {
     margin-top: -30px;
+    }
+
+    .jumbotron .text-center {
+      margin-top: 280px;
+      position: relative;
+      background: url() center center;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      overflow: hidden;
     }
 }
