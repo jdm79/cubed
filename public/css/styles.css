@@ -25,6 +25,14 @@ header .navbar {
   overflow: hidden;
 }
 
+#news-button {
+  margin-top: 30px;
+}
+
+#steps {
+  margin-top: 100px;
+}
+
 .jumbotron .about p {
   font-size: 15px;
 }
@@ -42,8 +50,15 @@ header .navbar {
   overflow: hidden;
 }
 
-.about {
-margin-top: 100px;
+.jumbotron  #about {
+margin-top: 50px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.jumbotron  .skills-text{
+margin-top: 70px;
+margin-left: 40px;
+margin-right: 40px;
 }
 
 .hero {
@@ -66,12 +81,23 @@ margin-top: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 300px;
+  max-height: 250px;
   max-width: 100%;
 
 }
 
+.skills .img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 1200px;
+  max-width: 100%;
 
+}
+
+.about-photos {
+  margin-top: -45px;
+}
 
 .hero-content h2 {
   color: white;
@@ -97,7 +123,7 @@ main {
 }
 
 footer {
-  padding: 30px 0;
+  padding: 3px 0;
   font-size: 14px;
   color: white;
   background: black;
@@ -118,7 +144,7 @@ footer {
 
 
     .jumbotron .text-center {
-      margin-top: 260px;
+      margin-top: 220px;
       position: relative;
       background: url() center center;
       width: 100%;
@@ -126,16 +152,44 @@ footer {
       background-size: cover;
       overflow: hidden;
     }
+
+    .jumbotron  #about {
+    margin-top: -110px;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+
+    .about-photos {
+      margin-top: 245px;
+    }
+
+    .jumbotron  .skills-text {
+    margin-top: -30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
 }
 
 @media only screen and (max-width: 321px) {
     /* For mobile phones: */
     .about {
-    margin-top: -90px;
+    margin-top: 20px;
     }
 
     .jumbotron .jumbo-text {
         margin-top: -55px;
+    }
+
+    .jumbotron  #about {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+
+    .jumbotron  .skills-text {
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-right: 40px;
     }
 
     .hero-content .center-block .img-responsive {

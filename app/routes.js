@@ -15,14 +15,10 @@ router.get('/', function(req, res) {
 // route for our about page
 router.get('/about', function(req, res) {
   var users = [
-    { name: 'James', email: 'james@gmail.com', avatar: 'http://placekitten.com/800/800' },
-    { name: 'Jees', email: 'pop@gmail.com', avatar: 'http://placekitten.com/700/700', },
-    { name: 'Kaes', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/800' },
-    { name: 'Ben', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/700' },
-    { name: 'Leon', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/800' },
-    { name: 'Cath', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/700' },
-    { name: 'Barry', email: 'push@gmail.com', avatar: 'http://placekitten.com/700/800' },
-    { name: 'Pete', email: 'push@gmail.com', avatar: 'http://placekitten.com/800/800' },
+    { name: 'James', email: 'james@gmail.com', avatar: 'img/james.jpg' },
+    { name: '', email: '', avatar: 'img/cubed-square.png', },
+    { name: 'Jees', email: 'pop@gmail.com', avatar: 'img/ben.jpg', },
+
 
 
 
