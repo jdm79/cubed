@@ -29,6 +29,10 @@ header .navbar {
   margin-top: 100px;
 }
 
+.home {
+  margin-top: 200px;
+}
+
 .jumbotron .about p {
   font-size: 15px;
 }
@@ -47,7 +51,7 @@ header .navbar {
 }
 
 .jumbotron  #about {
-margin-top: 50px;
+margin-top: -70px;
 margin-left: 40px;
 margin-right: 40px;
 }
