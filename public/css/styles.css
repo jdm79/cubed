@@ -169,7 +169,7 @@ footer {
 
 
 @media only screen and (max-width: 450px) {
-    /* For mobile phones: */
+    /* For mobile iPhone 6: */
     .about {
     margin-top: -90px;
     }
@@ -203,6 +203,22 @@ footer {
       margin-top: 245px;
     }
 
+    .news-images {
+      margin-top: 18px;
+    }
+
+    #news1 {
+      margin: 15px;
+    }
+
+    #news2 {
+      margin: 15px;
+    }
+
+    #news3 {
+      margin: 15px;
+    }
+
 
     .jumbotron  .skills-text {
     margin-top: -30px;
@@ -212,7 +228,7 @@ footer {
 }
 
 @media only screen and (max-width: 321px) {
-    /* For mobile phones: */
+    /* For iPhone 5: */
     .about {
     margin-top: 20px;
     }
@@ -230,6 +246,22 @@ footer {
     .terms-text {
       margin-left: 20px;
       margin-right: 20px;
+    }
+
+    .news-images {
+      margin-top: -22px;
+    }
+
+    #news1 {
+      margin: 25px;
+    }
+
+    #news2 {
+      margin: 25px;
+    }
+
+    #news3 {
+      margin: 25px;
     }
 
     .jumbotron  .skills-text {
