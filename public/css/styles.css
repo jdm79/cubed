@@ -33,6 +33,22 @@ header .navbar {
   margin-top: 280px;
 }
 
+#news1 {
+  margin-bottom: 30px;
+}
+
+#news2 {
+  margin-bottom: 30px;
+}
+
+#news3 {
+  margin-bottom: 30px;
+}
+
+.news-images {
+  margin-top: 180px;
+}
+
 .jumbotron .about p {
   font-size: 15px;
 }
@@ -182,6 +198,7 @@ footer {
     .about-photos {
       margin-top: 245px;
     }
+
 
     .jumbotron  .skills-text {
     margin-top: -30px;
