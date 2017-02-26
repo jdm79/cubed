@@ -46,7 +46,11 @@ header .navbar {
 }
 
 .news-images {
-  margin-top: 180px;
+  margin-top: 220px;
+}
+
+.btn btn-primary btn-lg btn-block {
+  margin-top: 10px;
 }
 
 .jumbotron .about p {
