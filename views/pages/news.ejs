@@ -8,3 +8,25 @@
 </section>
 
 <%- contentFor('body') %>
+
+<div class="about-photos"
+
+  <div class="row">
+    <% for (user of users) { %>
+      <div class="col-sm-4">
+          <img src="<%= user.avatar %>" alt="" class="img-responsive">
+      </div>
+    <% } %>
+  </div>
+</div>
+
+<div class="about-photos"
+
+  <div class="row">
+    <% for (user of users) { %>
+      <div class="col-sm-4">
+          <img src="<%= user.avatar %>" alt="" class="img-responsive">
+      </div>
+    <% } %>
+  </div>
+</div>
