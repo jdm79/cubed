@@ -47,6 +47,11 @@ router.get('/skills', function(req, res) {
   res.render('pages/skills');
 });
 
+// Terms Page Route
+router.get('/terms', function(req, res) {
+  res.render('pages/terms');
+});
+
 // Contact Page Route
 router.get('/contact', function(req, res) {
   res.render('pages/contact');
