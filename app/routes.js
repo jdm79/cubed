@@ -42,9 +42,9 @@ router.get('/references', function(req, res) {
   res.render('pages/references');
 });
 
-// Skills Page Route
-router.get('/skills', function(req, res) {
-  res.render('pages/skills');
+// Services Page Route
+router.get('/services', function(req, res) {
+  res.render('pages/services');
 });
 
 // Terms Page Route

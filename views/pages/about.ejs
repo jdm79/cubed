@@ -2,8 +2,8 @@
 <section class="hero">
   <div class="hero-content">
     <div class="center-block">
-    <img src="/img/headers/about.jpg" class="img-responsive" alt="Responsive image">
-  </div>
+      <img src="/img/headers/about.jpg" class="img-responsive" alt="Responsive image">
+    </div>
   </div>
 </section>
 
@@ -13,29 +13,38 @@
 
 <%- contentFor('body') %>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-left">
   <div class="jumbo-text">
     <div id="about">
-  <h4>    The company was set up in November 2010 by Ben Jolly.
-      He is a firm believer that good design work can make a huge difference to everything, whether it’s getting a message across,
-      building a brand or motivating people, it’s a way of communicating and connecting with people on all levels.<br/>
-      <br/>
+      <h2>   Cubed Graphics provides affordable, imaginative and innovative marketing, web design,
+        design and print solutions and believes in communication, collaboration and customer service.
+      </h2>
+      <h4>At Cubed Graphics we have many years of combined experience and our zest for artistic creation
+        make us the ideal partner for all of your company or individual marketing, design and/or print needs.</h4>
+        <h4>
+          It is important to us to communicate with our clients in detail to be able to establish the design brief needed
+          for us to deliver on your business or personal needs.</h4>
+          <h4>The company was set up in November 2010 by Ben Jolly. He is a firm believer that good design work
+            can make a huge difference to everything, whether it’s getting a message across, building a brand or motivating people,
+            it’s a way of communicating and connecting with people on all levels.</h4>
+            <h4>We encourage feedback since it is always incorporated into our work moving forward.
+            </h4>
+          </div>
+        </div>
 
-    </br></h4>
-  </div>
-</div>
 
-<div class="about-photos"
 
-  <div class="row">
-    <% for (user of users) { %>
-      <div class="col-sm-4">
-          <img src="<%= user.avatar %>" alt="" class="img-responsive">
+        <div class="about-photos"
+
+        <div class="row">
+          <% for (user of users) { %>
+            <div class="col-sm-4">
+              <img src="<%= user.avatar %>" alt="" class="img-responsive">
+            </div>
+            <% } %>
+          </div>
+        </div>
+
+
+
       </div>
-    <% } %>
-  </div>
-</div>
-
-
-
-</div>

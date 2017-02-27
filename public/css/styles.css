@@ -58,7 +58,7 @@ header .navbar {
 }
 
 .jumbotron  .jumbo-text {
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 .jumbotron .portfolio-text {
@@ -133,7 +133,7 @@ video {
 }
 
 .about-photos {
-  margin-top: -45px;
+  margin-top: 0px;
 }
 
 .hero-content h2 {
@@ -194,13 +194,13 @@ footer {
     }
 
     .jumbotron  #about {
-    margin-top: -110px;
+    margin-top: -190px;
     margin-left: 40px;
     margin-right: 40px;
     }
 
     .about-photos {
-      margin-top: 245px;
+      margin-top: 0px;
     }
 
     .news-images {
@@ -265,7 +265,7 @@ footer {
     }
 
     .jumbotron  .skills-text {
-    margin-top: -40px;
+    margin-top: -55px;
     margin-left: 40px;
     margin-right: 40px;
     }
