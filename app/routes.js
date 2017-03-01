@@ -14,17 +14,7 @@ router.get('/', function(req, res) {
 });
 // route for our about page
 router.get('/about', function(req, res) {
-  var users = [
-    { name: 'James', email: 'james@gmail.com', avatar: 'img/james.jpg' },
-    { name: '', email: '', avatar: 'img/cubed-square.png', },
-    { name: 'Jees', email: 'pop@gmail.com', avatar: 'img/ben.jpg', },
-
-
-
-
-  ];
-
-  res.render('pages/about', { users: users});
+  res.render('pages/about');
 });
 
 // News Page Route

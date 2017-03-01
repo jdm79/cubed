@@ -4,9 +4,9 @@
   <div class="hero-content">
     <div class="center-block">
 
-    <img src="/img/headers/logo-header2.png" class="img-responsive" alt="Responsive image">
+      <img src="/img/headers/logo-header2.png" class="img-responsive" alt="Responsive image">
 
-</div>
+    </div>
   </div>
 </section>
 
@@ -39,64 +39,64 @@
         <img src="/img/home/telephone.jpg" class="img-responsive" alt="responsive image">
         <h5>Contact Us</h5>
         <h6>Email:
-studio@cubedgraphics.co.uk
-<br/>
-<br/>
-Telephone:
-07931498794
-or 0191 3771999</h6>
-      </div>
-      <div class="col-sm-2">
-        <a target="_blank" href="https://cubedgraphics.appsme.com/app/cubed-graphics/cubed-graphics-thinking-outside-of-the-box">
-        <img src="/img/home/app.png" class="img-responsive" alt="responsive image">
-        <h5>Cubed Graphics App</h5>
-        <h6>Download our new Cubed Graphics app here!</h6>
-      </a>
+          studio@cubedgraphics.co.uk
+          <br/>
+          <br/>
+          Telephone:
+          07931498794
+          or 0191 3771999</h6>
+        </div>
+        <div class="col-sm-2">
+          <a target="_blank" href="https://cubedgraphics.appsme.com/app/cubed-graphics/cubed-graphics-thinking-outside-of-the-box">
+            <img src="/img/home/app.png" class="img-responsive" alt="responsive image">
+            <h5>Cubed Graphics App</h5>
+            <h6>Download our new Cubed Graphics app here!</h6>
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <video id="video" width="auto" controls>
-  <source src="videos/cubed.mp4" type="video/mp4">
-</video>
+    <source src="videos/cubed.mp4" type="video/mp4">
+    </video>
 
-<script>
-          var video = document.getElementById('video'), fraction = 0.8;
+    <script>
+    var video = document.getElementById('video'), fraction = 0.8;
 
-          function checkScroll() {
-              var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
-              b = y + h, //bottom
-              visibleX, visibleY, visible;
+    function checkScroll() {
+      var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+      b = y + h, //bottom
+      visibleX, visibleY, visible;
 
-              visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-              visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+      visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+      visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
 
-              visible = visibleX * visibleY / (w * h);
+      visible = visibleX * visibleY / (w * h);
 
-              if (visible > fraction) {
-                  video.play();
-              } else {
-                  video.pause();
-              }
-          }
+      if (visible > fraction) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    }
 
-          checkScroll();
-          window.addEventListener('scroll', checkScroll, false);
-          window.addEventListener('resize', checkScroll, false);
-      </script>
+    checkScroll();
+    window.addEventListener('scroll', checkScroll, false);
+    window.addEventListener('resize', checkScroll, false);
+    </script>
 
 
-<div class="row">
-<div id="latest-news">
-  <div class="col-sm-8">
-<!--  <div class="center-block"> -->
-  <img src="/img/7-steps.png" class="img-responsive" alt="Responsive image">
-  </div>
-  <div class="col-sm-4">
-    <a target="_blank" href="https://cubedgraphics.appsme.com/app/cubed-graphics/cubed-graphics-thinking-outside-of-the-box">
-    <img src="/img/appsme.png" class="img-responsive" alt="Responsive image">
-  </a>
+    <div class="row">
+      <div id="latest-news">
+        <div class="col-sm-8">
+          <!--  <div class="center-block"> -->
+          <img src="/img/7-steps.png" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <a target="_blank" href="https://cubedgraphics.appsme.com/app/cubed-graphics/cubed-graphics-thinking-outside-of-the-box">
+            <img src="/img/appsme.png" class="img-responsive" alt="Responsive image">
+          </a>
 
-  </div>
-</div>
+        </div>
+      </div>

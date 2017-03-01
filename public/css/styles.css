@@ -76,14 +76,14 @@ header .navbar {
 }
 
 .jumbotron  #about {
-margin-top: -0px;
-margin-left: 40px;
-margin-right: 40px;
+  margin-top: -0px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .jumbotron  .skills-text{
-margin-top: 140px;
-margin-left: 40px;
-margin-right: 40px;
+  margin-top: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .hero {
@@ -111,8 +111,8 @@ margin-right: 40px;
 }
 
 video {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .skills .img-responsive {
@@ -139,6 +139,9 @@ video {
 
 .about-photos {
   margin-top: 0px;
+  margin-left:-10px;
+  margin-right:-1px;
+
 }
 
 .hero-content h2 {
@@ -174,119 +177,119 @@ footer {
 
 
 @media only screen and (max-width: 450px) {
-    /* For mobile iPhone 6: */
-    .about {
+  /* For mobile iPhone 6: */
+  .about {
     margin-top: -90px;
-    }
+  }
 
-    .hero-content .center-block .img-responsive {
-        margin:10px;
-    }
+  .hero-content .center-block .img-responsive {
+    margin:10px;
+  }
 
-    .terms-text {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+  .terms-text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .jumbotron .text-center {
-      margin-top: 220px;
-      position: relative;
-      background: url() center center;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      overflow: hidden;
-    }
+  .jumbotron .text-center {
+    margin-top: 220px;
+    position: relative;
+    background: url() center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
 
-    .jumbotron  #about {
+  .jumbotron  #about {
     margin-top: -190px;
     margin-left: 40px;
     margin-right: 40px;
-    }
+  }
 
-    .about-photos {
-      margin-top: 0px;
-    }
+  .about-photos {
+    margin-top: 0px;
+  }
 
-    .news-images {
-      margin-top: -30px;
-    }
+  .news-images {
+    margin-top: -30px;
+  }
 
-    #news1 {
-      margin: 15px;
-    }
+  #news1 {
+    margin: 15px;
+  }
 
-    #news2 {
-      margin: 15px;
-    }
+  #news2 {
+    margin: 15px;
+  }
 
-    #news3 {
-      margin: 15px;
-    }
+  #news3 {
+    margin: 15px;
+  }
 
 
-    .jumbotron  .skills-text {
+  .jumbotron  .skills-text {
     margin-top: -30px;
     margin-left: 40px;
     margin-right: 40px;
-    }
+  }
 }
 
 @media only screen and (max-width: 321px) {
-    /* For iPhone 5: */
-    .about {
+  /* For iPhone 5: */
+  .about {
     margin-top: 20px;
-    }
+  }
 
-    .jumbotron .jumbo-text {
-        margin-top: -55px;
-    }
+  .jumbotron .jumbo-text {
+    margin-top: -55px;
+  }
 
-    .jumbotron  #about {
+  .jumbotron  #about {
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
-    }
+  }
 
-    .terms-text {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+  .terms-text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .news-images {
-      margin-top: -85px;
-    }
+  .news-images {
+    margin-top: -85px;
+  }
 
-    #news1 {
-      margin: 25px;
-    }
+  #news1 {
+    margin: 25px;
+  }
 
-    #news2 {
-      margin: 25px;
-    }
+  #news2 {
+    margin: 25px;
+  }
 
-    #news3 {
-      margin: 25px;
-    }
+  #news3 {
+    margin: 25px;
+  }
 
-    .jumbotron  .skills-text {
+  .jumbotron  .skills-text {
     margin-top: -55px;
     margin-left: 40px;
     margin-right: 40px;
-    }
+  }
 
-    .hero-content .center-block .img-responsive {
-        margin:10px;
-    }
+  .hero-content .center-block .img-responsive {
+    margin:10px;
+  }
 
 
-    .jumbotron .text-center {
-      margin-top: 120px;
-      position: relative;
-      background: url() center center;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      overflow: hidden;
-    }
+  .jumbotron .text-center {
+    margin-top: 120px;
+    position: relative;
+    background: url() center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
 }
