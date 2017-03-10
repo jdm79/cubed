@@ -201,6 +201,11 @@ footer {
     margin-right: 20px;
   }
 
+  .slider-images {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
   .jumbotron .text-center {
     margin-top: 220px;
     position: relative;
@@ -268,6 +273,11 @@ footer {
 
   .news-images {
     margin-top: -85px;
+  }
+
+  .slider-images {
+    margin-top: 50px;
+    padding-top: 20px;
   }
 
   #news1 {
