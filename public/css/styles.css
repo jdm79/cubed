@@ -25,6 +25,10 @@ header .navbar {
   padding-top: 20px;
 }
 
+.contact {
+  margin-top: 300px;
+}
+
 .jumbotron {
   position: relative;
   background: url() center center;
@@ -196,6 +200,10 @@ footer {
     margin-top: 10px;
   }
 
+  .contact {
+    margin-top: 20px;
+  }
+
   .hero-content .center-block .img-responsive {
     margin:10px;
   }
@@ -262,6 +270,10 @@ footer {
 
   .jumbotron .jumbo-text {
     margin-top: -55px;
+  }
+
+  .contact {
+    margin-top: -80px;
   }
 
   .jumbotron  #about {
