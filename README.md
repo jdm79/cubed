@@ -22,6 +22,7 @@ I made the basic routes and EJS templates using the official Node and Express do
 ```
 $ git clone git@github.com:jdm79/cubed.git
 $ npm install
+$ cd cubed
 $ npm start
 
 (then go to localhost:8080)
