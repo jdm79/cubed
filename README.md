@@ -2,6 +2,8 @@
 
 This application for a graphic designer friend was my first server-side rendered website, made with Embedded JavaScript (EJS), Node, Express and CSS. It was hosted on Heroku during the testing and development of the application. It can still be seen [here](https://lit-sands-86396.herokuapp.com/).
 
+It's hosted on a free Heroku plan, so will take around 5-10 seconds to initially load. I made this application two years ago and have only had to update the Node version to v10.9.0 from v7.2.0 to get it running again.
+
 
 # Stack
 
